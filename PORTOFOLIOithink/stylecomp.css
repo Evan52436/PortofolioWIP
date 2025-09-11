@@ -1,0 +1,162 @@
+body {
+    background-image: url(./img-src/revision2.png);
+    position: static;
+    top: 0;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    background-color: #83a3ca;
+    animation: fadeOut 2s forwards;
+}
+
+.nama {
+    margin-top: 90px;
+    margin-right: 600px;
+    margin-bottom: 30px;
+    font-size: 50pt;
+    line-height: 70px;
+    font-weight: 800;
+}
+
+.detailme {
+    margin-right: 900px;
+    margin-top: 20px;
+    font-size: 16pt;
+}
+
+html {
+    font-family: Poppins;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+.homepage {
+    margin-top: 10px;
+    margin-left: 84px;
+}
+
+.divider {
+   background-color: white; 
+   margin-bottom: 10px;
+}
+
+.border {
+  background-color: white;
+  margin-top: 210px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 17pt;
+  margin-right: 60px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100px;
+  font-weight: 700;
+  z-index: 100;
+  padding-left: 35px;
+  padding-top: 20px;
+  border-radius: 24px;
+  padding-top: 0px;
+  }
+  
+.navbarcont {
+  float: left;
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+  }
+  
+.navbarcont a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 40px;
+  }
+  
+.navbarcont a:hover {
+    outline-width: 4px;
+    padding: 15px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 4px;
+    font-weight: 700;
+  }
+
+.skills {
+    margin-top: 100px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50pt;
+    font-weight: 700;
+  }
+
+.frontend {
+    outline-width: 4px;
+    padding: 40px;
+    text-align: center;
+  }
+
+.experience {
+    margin-top: 100px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50pt;
+    font-weight: 700;
+    margin-bottom: 80px;
+  }
+
+.expdetail {
+    text-align: left;
+    margin-left: 67px;
+    font-size: 10pt;
+    margin-right: 600px;
+    font-weight: 600;
+    overflow: hidden;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+  }
+
+.year {
+    margin-bottom: 100px;
+    font-size: 16pt;
+    font-weight: 700;
+  }
+
+.yeardetail {
+    margin-left: 307px;
+    font-weight: 700;
+    margin-top: 1px;
+    margin-bottom: 0px;
+  }
+    
+.acclink {
+  margin-left: 92px;
+  background-color: #516c8d;
+  padding-top: 6px;
+  padding-left: 7px;
+  margin-right: 1371px;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+}
+
+.detailperyear {
+    font-weight: 400;
+    margin-top: 0px;
+    margin-left: 307px;
+    margin-bottom: 0px;
+  }
