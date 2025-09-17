@@ -160,3 +160,17 @@ html {
     margin-left: 307px;
     margin-bottom: 0px;
   }
+
+.construction {
+  justify-content: center;
+  text-align: center;
+  font-size: 35pt;
+  font-weight: 700;
+}
+
+.constructionimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
