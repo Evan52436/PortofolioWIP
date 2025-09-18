@@ -1,5 +1,5 @@
 body {
-    background-image: url(./evan.png);
+    background-image: url(./img-src/evan.png);
     position: static;
     top: 0;
     background-repeat: no-repeat;
@@ -126,7 +126,6 @@ html {
     text-align: left;
     margin-left: 67px;
     font-size: 10pt;
-    margin-right: 600px;
     font-weight: 600;
     overflow: hidden;
     z-index: 100;
@@ -147,7 +146,7 @@ html {
     margin-top: 1px;
     margin-bottom: 0px;
   }
-    
+
 .acclink {
   margin-left: 92px;
   background-color: #516c8d;
@@ -188,8 +187,14 @@ html {
 
 @media (max-aspect-ratio: 4/3) {
   body {
-    background: #83a3ca;
-    font-size: 4pt;
+    justify-content: left;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
   }
 }
 
@@ -197,3 +202,4 @@ html {
   margin-top: 10px;
 margin-right: 5px;
 }
+
