@@ -1,5 +1,5 @@
 body {
-    background-image: url(./img-src/revision2.png);
+    background-image: url(./img-src/evan.png);
     position: static;
     top: 0;
     background-repeat: no-repeat;
@@ -9,8 +9,13 @@ body {
     animation: fadeOut 2s forwards;
 }
 
+.seperate {
+  display: flex;
+  margin-top: 700px;
+}
+
 .nama {
-    margin-top: 90px;
+    margin-top: 40px;
     margin-right: 600px;
     margin-bottom: 30px;
     font-size: 50pt;
@@ -19,9 +24,8 @@ body {
 }
 
 .detailme {
-    margin-right: 900px;
-    margin-top: 20px;
     font-size: 16pt;
+    margin-right: 400px;
 }
 
 html {
@@ -48,7 +52,7 @@ html {
 
 .border {
   background-color: white;
-  margin-top: 210px;
+  margin-top: 170px;
 }
 
 .navbar {
@@ -175,3 +179,21 @@ html {
   
 }
 
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-right: 1300px;
+}
+
+@media (max-aspect-ratio: 4/3) {
+  body {
+    background: #83a3ca;
+    font-size: 4pt;
+  }
+}
+
+.flexboxlink {
+  margin-top: 10px;
+margin-right: 5px;
+}
