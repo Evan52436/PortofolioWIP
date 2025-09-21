@@ -1,40 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylecomp.css ">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script>alert("uh oh! page this page is still work on progress! you can close this menu and view the page , expect bug, misaligned content, etc. Also please dont open this website from your mobile, the layout kinda ruined... pls enable desktop mode for mobile.  Anyways, Enjoy! :3")</script>
-    <title>Evan Pranawa Armansyah</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evan Pranawa Armansyah</title>
 </head>
-<div class="box" id="landing"></div>
-<ul class="navbar">
-    <img src="">
-    <li class="navbarcont"><a href="#landing">Home</a></li>
-    <li class="navbarcont"><a href="#experience">Experience</a></li>
-    <li class="navbarcont"><a href="#skills">Skills</a></li>
-    <li class="navbarcont"><a href="#contact">Contact</a></li>
-    <li class="navbarcont"><a href="#">About</a></li>
-  </ul>
-    <link rel="icon" type="image/png" href="https://static.vecteezy.com/system/resources/previews/033/882/148/original/transparent-background-person-icon-free-png.png">
-<body><div class="seperate"></div>
-    <div id="experience"></div>
-    <div class="expflex">
-    <p class="experience">Experience</p>
-    <ul class="expdetail">
-        <li class="year">2025 - Present&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Backend Developer<p class="yeardetail">Personal Project</p>
-        <br> <p class="detailperyear">Building small class server for home use such as NAS,<br> Minilab,
-            Web Hosting, etc. Working Backend with Linux <br>CLI,
-            Node.js, and Linux Systems.
-        </p> </li>
-    </ul>
+<body>
+  <div class="card">
+    <div class="text-section">
+      <h1>Evan Pranawa Armansyah</h1>
+      <p>Cybersecurity enthusiast</p>
+      <p>Based in Bogor, Indonesia</p>
+      <p>Find me here!</p>
+      <div class="social-links">
+        <a href="https://github.com/Evan52436" target="_blank">
+          <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+        </a>
+        <a href="https://instagram.com/evanpranawaarmansyah" target="_blank">
+          <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
+        </a>
+      </div>
+      <div class="portlink">
+        <a href="computermode.html">My Website (WIP)</a>
+      </div>
     </div>
-    <div id="skills"></div>
-    <p class="skills">Skills & Expertise</p>
-    <p class="construction">Uh oh! Thwis pwage is still uwnderw cownstructiown!1!! :3</p>
-    <img class="constructionimg" src="https://as2.ftcdn.net/v2/jpg/03/43/73/31/1000_F_343733140_al4QQWeOH16Ci1h2WNqbecl2Srh9b1e2.jpg" width="500px">
+    <div class="image-section">
+      <img src="./irohaa.png" alt="My Bini Gwejh" />
+    </div>
+  </div>
 </body>
 </html>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card {
+    background: #83a3ca;
+    color: white;
+    padding: 2rem;
+    border-radius: 16px;
+    width: 600px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .portlink {
+    background: #5598dc;
+    color: white;
+    border-radius: 16px;
+    width: 150px;
+    height: 50px;
+    font-size: 10pt;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 2rem;
+  }
+
+  .portlink a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .text-section {
+    flex: 1;
+  }
+
+  .text-section h1 {
+    margin-top: 0;
+    font-size: 1.6rem;
+  }
+
+  .text-section p {
+    margin: 0.5rem 0;
+  }
+
+  .social-links {
+    margin-top: 1rem;
+    margin-bottom: 6px;
+  }
+
+  .social-links a img {
+    width: 32px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .social-links a img:hover {
+    transform: scale(1.1);
+  }
+
+  .image-section img {
+    display: flex;
+    justify-content: end;
+    width: 350px;
+    border-radius: 12px;
+    object-fit: cover;
+    padding-top: 70px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .portlink {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>
