@@ -105,6 +105,7 @@ html {
     text-align: center;
     font-size: 50pt;
     font-weight: 700;
+    margin-bottom: 20px;
   }
 
 .frontend {
@@ -141,11 +142,38 @@ html {
 }
 .detailyear {
   font-size: 18pt;
-  font-weight: 400;
+  font-weight: 500;
+}
+
+hr {
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .year {
   font-weight: 700;
+}
+
+.skillsdetail {
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+}
+
+.IMAGE {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.detailskill {
+  font-weight: 500;
+  font-size: 16pt;
+  text-align: center;
 }
 
 .acclink {
@@ -198,3 +226,11 @@ html {
 margin-right: 5px;
 }
 
+.contact {
+  margin-top: 100px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
