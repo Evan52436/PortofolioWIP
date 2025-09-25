@@ -145,6 +145,11 @@ html {
   font-weight: 500;
 }
 
+.year {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
 hr {
   display: block;
   margin-top: 100px;
@@ -197,7 +202,7 @@ hr {
   justify-content: center;
   text-align: center;
   font-size: 35pt;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .constructionimg {
