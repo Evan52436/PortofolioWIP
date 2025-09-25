@@ -1,5 +1,5 @@
 body {
-    background-image: url(./evan.png);
+    background-image: url(./img-src/evan.png);
     position: static;
     top: 0;
     background-repeat: no-repeat;
@@ -122,30 +122,31 @@ html {
     margin-bottom: 80px;
   }
 
-.expdetail {
-    text-align: left;
-    margin-left: 67px;
-    font-size: 10pt;
-    font-weight: 600;
-    overflow: hidden;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    list-style-type: none;
+.yearflex {
+    font-size: 19pt;
+    padding-left: 250px;
   }
+
+@media (max-aspect-ratio: 4/3) {
+   .yearflex {
+     justify-content: center;
+     text-align: center;
+     padding-left: 0px;
+     padding: 50px;
+  }
+  body {
+    justify-content: left;
+    margin: 0px;
+  }
+}
+.detailyear {
+  font-size: 18pt;
+  font-weight: 500;
+}
 
 .year {
-    margin-bottom: 100px;
-    font-size: 16pt;
-    font-weight: 700;
-  }
-
-.yeardetail {
-    margin-left: 307px;
-    font-weight: 700;
-    margin-top: 1px;
-    margin-bottom: 0px;
-  }
+  font-weight: 700;
+}
 
 .acclink {
   margin-left: 92px;
@@ -185,12 +186,6 @@ html {
   margin-right: 1300px;
 }
 
-@media (max-aspect-ratio: 4/3) {
-  body {
-    justify-content: left;
-    margin: 0px;
-  }
-}
 
 @media (max-width: 800px) {
   .navbar {
