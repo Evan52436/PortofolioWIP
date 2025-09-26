@@ -277,6 +277,7 @@ margin-right: 5px;
   background-color: #83a3ca;
   border-radius: 5px;
   border: 0px;
+  color: white;
 }
 
 input[type=text],input[type=text]::placeholder{
