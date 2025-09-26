@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  transition: 0.3s all;
+}
+
 body {
     background-image: url(./evan.png);
     position: static;
@@ -75,6 +82,10 @@ html {
   padding-top: 0px;
   }
   
+.navbar:focus {
+  outline: none;
+}
+
 .navbarcont {
   float: left;
   backdrop-filter: blur(2px);
@@ -128,21 +139,11 @@ html {
     padding-left: 250px;
   }
 
-@media (max-aspect-ratio: 4/3) {
-   .yearflex {
-     justify-content: center;
-     text-align: center;
-     padding-left: 0px;
-     padding: 50px;
-  }
-  body {
-    justify-content: left;
-    margin: 0px;
-  }
-}
 .detailyear {
   font-size: 18pt;
   font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .year {
@@ -153,7 +154,6 @@ html {
 hr {
   display: block;
   margin-top: 100px;
-  margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
@@ -170,12 +170,28 @@ hr {
   justify-content: center;
 }
 
+.IMAGE:hover {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  border-radius: 10px;
+  box-shadow: -9px 10px 27px 0px rgba(0,0,0,0.46);
+  -moz-box-shadow: -9px 10px 27px 0px rgba(0,0,0,0.46);
+  -webkit-box-shadow: -9px 10px 27px 0px rgba(0,0,0,0.46);
+}
+
 .IMAGE {
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  border-radius: 10px;
+  box-shadow: -6px 12px 27px -7px rgba(0,0,0,0.46);
+  -webkit-box-shadow: -6px 12px 27px -7px rgba(0,0,0,0.46);
+  -moz-box-shadow: -6px 12px 27px -7px rgba(0,0,0,0.46);
 }
 
 .detailskill {
+  margin-top: 10px;
   font-weight: 500;
   font-size: 16pt;
   text-align: center;
@@ -191,34 +207,12 @@ hr {
   backdrop-filter: blur(2px);
 }
 
-.detailperyear {
-    font-weight: 400;
-    margin-top: 0px;
-    margin-left: 307px;
-    margin-bottom: 0px;
-  }
-
-.construction {
-  justify-content: center;
-  text-align: center;
-  font-size: 35pt;
-  font-weight: 700;
-}
-
-.constructionimg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
 .flexbox {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
   margin-right: 1300px;
 }
-
 
 @media (max-width: 800px) {
   .navbar {
@@ -231,11 +225,37 @@ hr {
 margin-right: 5px;
 }
 
-.contact {
-  margin-top: 100px;
-  padding-top: 10px;
+.about {
+  background-color: black;
+  padding-left: 250px;
+}
+
+.About {
+  font-size: 24pt;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+
+
+/* MEDIA QUERY // RESPONSIVE CSS */
+
+
+@media (max-aspect-ratio: 4/3) {
+  .yearflex {
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px;
+    padding: 50px;
+ }
+ body {
+   justify-content: left;
+   margin: 0px;
+ }
+ .about {
+  padding-left: 0px;
+  justify-content: center;
   text-align: center;
-  font-size: 50pt;
-  font-weight: 700;
-  margin-bottom: 20px;
+  padding: 50px;
+ }
 }
