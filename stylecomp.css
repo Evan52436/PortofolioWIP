@@ -236,7 +236,15 @@ margin-right: 5px;
   padding-top: 50px;
 }
 
+.cr {
+  color: grey;
+}
 
+.detailmine {
+  color: white;
+  padding-top: 50px;
+  font-weight: 400;
+}
 
 /* MEDIA QUERY // RESPONSIVE CSS */
 
