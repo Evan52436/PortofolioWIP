@@ -19,6 +19,7 @@ body {
 .seperate {
   display: flex;
   margin-top: 700px;
+  margin-bottom: 0px;
 }
 
 .nama {
@@ -226,7 +227,7 @@ margin-right: 5px;
 }
 
 .about {
-  background-color: black;
+  background-color: rgb(13, 13, 13);
   padding-left: 250px;
 }
 
@@ -238,15 +239,63 @@ margin-right: 5px;
 
 .cr {
   color: grey;
+  margin-bottom: 0px;
 }
 
 .detailmine {
-  color: white;
-  padding-top: 50px;
+  color: rgb(255, 255, 255);
+  padding-top: 15px;
   font-weight: 400;
+  padding-bottom: 15px;
 }
 
-/* MEDIA QUERY // RESPONSIVE CSS */
+.col {
+  padding-bottom: 5px;
+}
+
+.form-control {
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 200px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  border-bottom: 3px solid rgb(82, 194, 255);
+  background-color: rgb(13, 13, 13);
+  color: white;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 20px;
+  background-color: #83a3ca;
+  border-radius: 5px;
+  border: 0px;
+}
+
+input[type=text],input[type=text]::placeholder{
+  color:white;
+ }
+ input[type=email],input[type=email]::placeholder{
+  color:white;
+ }
+ .social-links {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  margin-right: 50px;
+ }
+
+ .links {
+  padding-right: 5px;
+ }
+
+ /* MEDIA QUERY // RESPONSIVE CSS */
 
 
 @media (max-aspect-ratio: 4/3) {
@@ -265,5 +314,19 @@ margin-right: 5px;
   justify-content: center;
   text-align: center;
   padding: 50px;
+ }
+ .about {
+  font-size: 9pt;
+ }
+ .form-control {
+  text-align: center;
+  justify-content: center;
+ }
+ .skil {
+  margin-left: 30px;
+  margin-right: 30px;
+ }
+ .experience {
+  margin-top: 10px;
  }
 }
