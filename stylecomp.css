@@ -319,10 +319,7 @@ input[type=text],input[type=text]::placeholder{
  .about {
   font-size: 9pt;
  }
- .form-control {
-  text-align: center;
-  justify-content: center;
- }
+
  .skil {
   margin-left: 30px;
   margin-right: 30px;
