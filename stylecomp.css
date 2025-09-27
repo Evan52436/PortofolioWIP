@@ -281,10 +281,10 @@ margin-right: 5px;
 }
 
 input[type=text],input[type=text]::placeholder{
-  color:white;
+  color:grey;
  }
  input[type=email],input[type=email]::placeholder{
-  color:white;
+  color:grey;
  }
  .social-links {
   margin-top: 10px;
