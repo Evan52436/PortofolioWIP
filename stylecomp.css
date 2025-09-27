@@ -247,6 +247,7 @@ margin-right: 5px;
   padding-top: 15px;
   font-weight: 400;
   padding-bottom: 15px;
+  padding-right: 450px;
 }
 
 .col {
@@ -278,12 +279,13 @@ margin-right: 5px;
   border-radius: 5px;
   border: 0px;
   color: white;
+  font-weight: 600;
 }
 
-input[type=text],input[type=text]::placeholder{
+input[type=text]::placeholder{
   color:grey;
  }
- input[type=email],input[type=email]::placeholder{
+ input[type=email]::placeholder{
   color:grey;
  }
  .social-links {
@@ -319,12 +321,14 @@ input[type=text],input[type=text]::placeholder{
  .about {
   font-size: 9pt;
  }
-
  .skil {
   margin-left: 30px;
   margin-right: 30px;
  }
  .experience {
   margin-top: 10px;
+ }
+ .detailmine {
+  padding-right: 0px;
  }
 }
