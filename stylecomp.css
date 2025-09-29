@@ -50,7 +50,6 @@ html {
 
 .homepage {
     margin-top: 10px;
-    margin-left: 84px;
 }
 
 .divider {
@@ -65,11 +64,11 @@ html {
 
 .navbar {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
   font-size: 17pt;
   margin-right: 60px;
+  margin-left: 0px;
   position: sticky;
   top: 0;
   left: 0;
