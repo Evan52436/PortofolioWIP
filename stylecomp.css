@@ -190,6 +190,26 @@ hr {
   -moz-box-shadow: -6px 12px 27px -7px rgba(0,0,0,0.46);
 }
 
+.custico {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  border-radius: 10px;
+  box-shadow: -6px 12px 27px -7px rgba(0,0,0,0.46);
+  -webkit-box-shadow: -6px 12px 27px -7px rgba(0,0,0,0.46);
+  -moz-box-shadow: -6px 12px 27px -7px rgba(0,0,0,0.46);
+}
+
+.custico:hover {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  border-radius: 10px;
+  box-shadow: -9px 10px 27px 0px rgba(0,0,0,0.46);
+  -moz-box-shadow: -9px 10px 27px 0px rgba(0,0,0,0.46);
+  -webkit-box-shadow: -9px 10px 27px 0px rgba(0,0,0,0.46);
+}
+
 .detailskill {
   margin-top: 10px;
   font-weight: 500;
