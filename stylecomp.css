@@ -96,7 +96,7 @@ html {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 10px;
   text-decoration: none;
   margin-left: 40px;
   }
@@ -315,6 +315,11 @@ input[type=text]::placeholder{
 
  .links {
   padding-right: 5px;
+ }
+
+ .sertificate {
+  width: 200px;
+  height: 400px;
  }
 
  /* MEDIA QUERY // RESPONSIVE CSS */
